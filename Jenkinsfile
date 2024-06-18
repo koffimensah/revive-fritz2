@@ -15,7 +15,7 @@ pipeline {
             steps {
                 sh '''
                 touch test.txt 
-                rm-rf test.txt
+                rm -rf test.txt
                 '''
             }
         }
